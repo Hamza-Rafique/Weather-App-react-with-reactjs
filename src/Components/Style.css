@@ -1,0 +1,33 @@
+form {
+  margin-top: 3rem;
+}
+
+.card {
+  width: 400px;
+  background-color: transparent;
+}
+.title {
+  font-size: 52px;
+  color: aliceblue;
+  padding-top: 30px;
+}
+.btn {
+  border-radius: 12px;
+}
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid whitesmoke;
+  width: 240px;
+  padding-right: 1.5rem;
+}
+form input:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+form input::-webkit-input-placeholder {
+  color: white !important;
+}
